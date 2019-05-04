@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="rs.css">
+        <link rel="stylesheet" href="index2.css">
+        <link rel="stylesheet" href="index3.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <title>HoverRobotix | Repair & Services</title>
+        </head>
+
+        <body>
+        <!--Navigation Bar-->
+
+        <div id="navbar">
+                <a href="index.html"><i class="fas fa-home"></i>Home</a>
+                <a href="index.html"><i class="fas fa-box-open"></i>Products</a>
+                <a class="active" href="#r&s"><i class="fas fa-tools"></i>Repairs & Services</a>
+                <a href="aboutu.html"><i class="fas fa-info-circle"></i>About US</a>
+                <a href="contactu.html"><i class="fas fa-phone"></i>Contact US</a>
+                <span><a href="#login"><i class="fas fa-user-circle"></i>Sign Up / Log In</a></span>
+        </div>
+
+        <!--Sidebar-->
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <br>
+                <br>
+                <a href="#index.html"><i class="fas fa-home"></i>Home</a>
+                <a href="#index.html"><i class="fas fa-box-open"></i>Products</a>
+                <a class="active" href="#r&s"><i class="fas fa-tools"></i>Repairs & Services</a>
+                <a href="aboutu.html"><i class="fas fa-info-circle"></i>About US</a>
+                <a href="contactu.html"><i class="fas fa-phone"></i>Contact US</a>
+        </div>
+
+
+                <header id="showcase" class="gridd">
+                        <div class="background-img"></div>
+                            <div class="content-wrap">
+                                <h1>Having Issues with your Hoverboard ?</h1>
+                                <h2>We got Your Back !<br>We have solutions for your all kind of issues with Hoverboards, Batteries and Chargers.</h2>
+                            </div>
+                </header>
+        <main id="main">
+
+         <!--Section D-->
+         <section id="section-d" class="grid">
+                <div class="box">
+                    <h2 class="content-title">Contact Us</h2>
+                        <p>Mob No. 09888583736, 09814541232</p>
+                        <p>Info@hoverrobotix.com<br>
+                            Model Town, Ludhiana, Punjab, India<br>
+                            Copyright by Hoverrobotix 2015<br>
+                            Munish Jindal - CEO @ HoverRobotix
+                        </p>
+                        <p>contact@hoverrobotix.boards</p>
+                </div>
+                <div class="box">
+                    <h2 class="content-title">About Hoverrobotix</h2>
+                    <p>HoverRobotix – the robotics organization of India into personal mobility, hoverboards and self balancing electric scooters. HoverRobotix brings the vision of the futuristic and personalized transportation in realm of human life.
+                         HoverRobotix got established with the vision of bringing human race closer to the Artificial Intelligence of the robotics world by providing sustainable future to the upcoming generation through a green mode of transportation that is “hoverboards”.<br><br>
+                        HoverRobotix is the first company to bring hoverboards in INDIA.</p>
+                </div>
+            </section>
+</main>
+
+<!--Footer-->
+
+                <footer id="main-footer" class="grid">
+                    <div>HoverRobotix Copyright. All Rights Reserved. 2019</div>
+                    <div>
+                    <a id="fb" href="#facebook"><i class="fab fa-facebook-square fa-3x"></i></a>
+                    <a id="ig" href="#insta"><i class="fab fa-instagram fa-3x"></i></a>
+                    </div>
+                </footer>
+
+<!--JS-->
+        <script>
+            window.onscroll = function() {myFunction()};
+        
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+        
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                }
+                else {
+                navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+
+    <!--Sidebar-->
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+        
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        </body>
+        </html>

@@ -1,0 +1,145 @@
+body {
+    margin : 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    font-size: 1.1em;
+    line-height : 1.5;
+    text-align: center;
+}
+
+main {
+    background : white;
+}
+
+/*OUTER CSS*/
+
+.testimonials {
+    padding : 40px 0;
+    background : #f1f1f1;
+    color : #434343;
+    text-align : center;
+}
+
+.testimonialss {
+    padding : 40px 0;
+    background : #f1f1f1;
+    color : #434343;
+    text-align : center;
+}
+
+.inner {
+    max-width : 1200px;
+    margin : auto;
+    overflow : hidden ;
+    padding : 0 20px;
+}
+
+.innerr {
+    max-width : 1200px;
+    margin : auto;
+    overflow : hidden ;
+    padding : 0 20px;
+}
+
+.border {
+    width : 160px;
+    height : 5px;
+    background : #6ab04c;
+    margin : 26px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap : wrap;
+    justify-content : center;
+}
+
+.roww {
+    display: flex;
+    flex-wrap : wrap;
+    justify-content : center;
+}
+
+.col {
+    flex : 33.33%;
+    max-width : 33.33%;
+    box-sizing : border-box;
+    padding : 15px;
+}
+
+.coll {
+    flex : 50%;
+    max-width : 50%;
+    /*box-sizing : border-box;*/
+}
+
+.testimonial {
+    background : #fff;
+    padding : 20px;
+    height : 45rem;
+}
+
+.testimonial img {
+    width : 100px;
+    height : 100px;
+    /*border-radius : 50%;*/
+}
+
+
+
+.name {
+    font-size : 20px;
+    margin : 20px 0;
+}
+
+/*Media Queries*/
+
+@media(min-width : 700px) {
+    .grid {
+        display : grid;
+        grid-template-columns : 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+    .box, #main-footer div {
+        grid-column : span 2;
+    }
+
+    #showcase .content-wrap {
+        padding : 0 1em;
+        transform : translateY(9em);
+    }
+
+    main {
+        background : white;
+    }
+}
+
+/*New Queries*/
+
+@media(max-width : 960px){
+    .col {
+        flex : 100%;
+        max-width : 100%;
+    }
+
+    .coll {
+        flex : 100%;
+        max-width : 100%;
+    }
+}
+
+/*Additional*/
+.testimoniall {
+    background : transparent;
+    height : 30rem;
+}
+
+.testimoniall img {
+    width : 350px;
+    height : 490px;
+}
+
+.testimoniall p {
+    text-align : justify;
+}
